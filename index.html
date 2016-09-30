@@ -2,32 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
     <title>My site</title>
 </head>
 <body>
-    <header>
-        <h1>Short Story</h1>
-    </header>
     <nav>
         <a>Yaroslav Rybak</a>
         <a>About Me</a>
         <a href="https://www.facebook.com/WhiteWalker2">Contacts</a>
         <a>Ask Me Question</a>
     </nav>
-        <p>Hello everyone, my name is Jaroslaw Rybak, and on this site I want to tell you a little about my life.
+    <header>
+        <h1>Short Story</h1>
+    </header>
+    
+        <p id="first">Hello everyone, my name is Jaroslaw Rybak, and on this site I want to tell you a little about my life.
 I was born in the village of Bolshoi Sidelnikova, but soon moved to the city of Lutsk, where I started to go to kindergarten, and then went to study in a local school.
         <br>
-        <img src="maxresdefault.jpg" alt="LutskCasple" width="300" height="200" />
         </p>
-        <p>After school I entered the Volyn National University College of Food Technology, in the direction of software development. During my teaching parents moved to the Lviv. In 2016. After graduation, I also moved to Lviv.
+        <img id="first" src="maxresdefault.jpg" alt="LutskCasple" />
+        <p id="second">After school I entered the Volyn National University College of Food Technology, in the direction of software development. During my teaching parents moved to the Lviv. In 2016. After graduation, I also moved to Lviv.
         <br>
-        <img src="hqdefault.jpg" alt="VK NUFT" width="300" height="200" />
         </p>
-         </p>
-        <p>Currently, I live in Lviv and attend courses SoftServe IT Academy. Plans to develop in the direction of IT technology to try to gain more knowledge and skills.
+         <img id="second" src="hqdefault.jpg" alt="VK NUFT" />
+        <p id="third">Currently, I live in Lviv and attend courses SoftServe IT Academy. Plans to develop in the direction of IT technology to try to gain more knowledge and skills.
         <br>
-        <img src="Church_of_Saints_Olga_and_Elizabeth,_Lviv_(3).jpg" alt="Church" width="300" height="200" />
         </p>
+        <img id="third" src="Church_of_Saints_Olga_and_Elizabeth,_Lviv_(3).jpg" alt="Church" />
+    <footer>
         <h2>To contact with me</h2>
         <form action="https://formspree.io/randomnuy@gmail.com" method="POST">
         <label for="name">Name: </label>
@@ -38,12 +40,12 @@ I was born in the village of Bolshoi Sidelnikova, but soon moved to the city of 
         <br>
         <input type="email" name="email" id="email">
         <br>
-        <label for="cpmment">Ask what u need: </label>
+        <label for="comment">Ask what u need: </label>
         <br>
         <textarea name="comment" id="comment"></textarea>
         <br>
         <button type="submit" name="submit">Send</button>
-    </form>
-    
+        </form>
+    </footer>
 </body>
 </html>
